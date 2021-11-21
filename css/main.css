@@ -4,23 +4,23 @@
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/fraunces-v10-latin-regular.woff2') format('woff2'), 
-         url('../fonts/fraunces-v10-latin-regular.woff') format('woff'); 
-  }
+    url('../fonts/fraunces-v10-latin-regular.woff') format('woff'); 
+}
 
-  @font-face {
+@font-face {
     font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
     src:  url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'), 
-         url('../fonts/fraunces-v10-latin-900.woff') format('woff'); 
-  }
+    url('../fonts/fraunces-v10-latin-900.woff') format('woff'); 
+}
 @font-face {
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/barlow-v5-latin-regular.woff2') format('woff2'),
-         url('../fonts/barlow-v5-latin-regular.woff') format('woff'); 
-  }
+    url('../fonts/barlow-v5-latin-regular.woff') format('woff'); 
+}
 
 *{
     box-sizing: border-box;
@@ -33,7 +33,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Fraunces,Serif";
-    background-color: #F2F2F2;
 }
 p{
     font-family: "Barlow,Arial,San-serif";
@@ -43,6 +42,12 @@ p{
     margin: 0 auto;
     padding: 0 20px;
 }
+.container__smal{
+    width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+} 
+/* HEADER  */
 .header .container{
     display: flex;
     justify-content: space-between;
@@ -53,13 +58,14 @@ p{
     height: 26px;
     vertical-align: middle;
 }
+/* NAVIGATION BAR  */
 .nav__list{
- display: flex;
- justify-content: center;
- vertical-align: middle;
- margin: 0;
- padding: 0;
- list-style-type: none;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 .nav__item{
     margin: 0;
@@ -80,21 +86,23 @@ p{
 }
 .activ{
     color: #333D4B;
-}
+} 
+/* HERO SECTION  */
 .hero .container{
+    margin-bottom: 135px;
     padding: 117px 85px;
     background-image: url("../images/bgr\ img\ hero.png");
     background-position: center;
     background-repeat: no-repeat;
 }
 .hero__heading{
- width: 493px;
- margin: 0;
- margin-bottom: 32px;
- padding: 0;
- font-weight: 900;
- font-size: 72px;
- color: #FEFCF7;
+    width: 493px;
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 0;
+    font-weight: 900;
+    font-size: 72px;
+    color: #FEFCF7;
 }
 .hero__paragraph{
     width: 445px;
@@ -124,8 +132,52 @@ p{
     cursor: pointer;
     border: none;
     transform: backround-color 0.2s ease;
-
+    
 }
 .button:hover{
     background-color: #0E8784;
+}
+/* TYPES COFFE SECTION  */
+.types__cofe .container__smal{
+    margin: 0 auto;
+    margin-bottom: 200px;
+    padding: 0;
+    background-image: url("../images/coffe\ list\ bgimage.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.types__coffe__list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: center;
+}
+/* hamasiga alohida bgr img bermadim voxt tejaw , blan url yozib berip ketadi */
+.types__coffe__item{
+    width: 255px;
+    background-image: url("../images/gran\ espreso\ bgraund.png");
+    background-position: center;
+    background-size: 255px 193px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    padding-top: 350px;
+}
+
+.types__coffe_heading{ 
+    width: 255px;
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+}
+.types__coffe__paragraph{
+    width: 255px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #333D4B;
 }
