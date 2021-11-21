@@ -181,3 +181,105 @@ p{
     font-size: 16px;
     color: #333D4B;
 }
+.servises .container{
+    position: relative;
+    margin-bottom: 350px;
+    background-image: url("../images/bgr\ servises\ img\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1280px 577px;
+}
+.servises__info{
+    display: flex;
+    flex-direction: column;
+     width: 540px;
+     margin: 0 auto;
+    padding: 100px 370px;
+    align-items: center;
+    text-align: center;
+}
+.servises__heading{
+    width: 330px;
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 0;
+    font-weight: 900;
+    font-size: 40px;
+    vertical-align: top;
+    color: #FEFCF7;
+}
+.servises__paragraph{
+width: 540px;
+margin: 0;
+margin-bottom: 86px;
+padding: 0;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+}
+.servises_list{
+    position: absolute;
+    z-index: 1;
+    right: 8%;
+    top: 100%;
+    transform: translate(0,-50%);
+    display: flex;
+    align-items: center;
+   
+}
+.servises__item__quality{
+    width: 350px;
+    margin: 0;
+    padding: 200px 48px 48px 48px;
+    background-image: url("../images/img\ coffe.png");
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-color: #0E8784;
+    border-radius: 8px;
+    list-style-type: none;
+    align-items: center;
+}
+.servises__item__gift{
+    width: 350px;
+    margin: 0;
+    margin-left: 30px;
+    padding: 200px 48px 48px 48px;
+    background-image: url("../images/gift\ img.png");
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-color: #0E8784;
+    border-radius: 8px;
+    list-style-type: none;
+    align-items: center;
+}
+.servises__item__delivery{
+    width: 350px;
+    margin: 0;
+    margin-left: 30px;
+    padding: 200px 48px 48px 48px;
+    background-image: url("../images/delivery\ img.png");
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-color: #0E8784;
+    border-radius: 8px;
+    list-style-type: none;
+    align-items: center;
+}
+
+.servises__item__heading{
+    width: 255px;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    color: #FEFCF7;
+}
+.servises__item__paragraph{
+    width: 255px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #FEFCF7;
+}
