@@ -69,6 +69,7 @@ p{
     margin-left: 32px;
 }
 .nav__link{
+    font-family:"Barlow,Arial,San-serif";
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
@@ -79,4 +80,52 @@ p{
 }
 .activ{
     color: #333D4B;
+}
+.hero .container{
+    padding: 117px 85px;
+    background-image: url("../images/bgr\ img\ hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero__heading{
+ width: 493px;
+ margin: 0;
+ margin-bottom: 32px;
+ padding: 0;
+ font-weight: 900;
+ font-size: 72px;
+ color: #FEFCF7;
+}
+.hero__paragraph{
+    width: 445px;
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 80%;
+    color: #FEFCF7;
+}
+
+.button{
+    display: inline-block;
+    width: 217px;
+    margin: 0;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #66D2CF;
+    color: #FEFCF7;
+    cursor: pointer;
+    border: none;
+    transform: backround-color 0.2s ease;
+
+}
+.button:hover{
+    background-color: #0E8784;
 }
