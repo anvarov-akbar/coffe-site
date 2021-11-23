@@ -10,7 +10,7 @@
 @font-face {
     font-family: 'Fraunces';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 900; 
     src:  url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'), 
     url('../fonts/fraunces-v10-latin-900.woff') format('woff'); 
 }
@@ -90,9 +90,6 @@ p{
     text-decoration: none;
     color: #83888F;
 }
-.activ{
-    color: #333D4B;
-} 
 /* MAIN  */
 .main{
     flex-grow: 1;
@@ -413,4 +410,24 @@ p{
 }
 .social__list + .social__list{
     margin-left: 24px;
+}
+/* ABOUT HTML  */
+ /* HERO  */
+.about__hero .container{
+    margin-bottom: 168px;
+    padding: 117px 85px;
+    background-image: url("../images/about.img/about\ hero\ bgrimg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.about__heading{
+    width: 188px;
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
 }
