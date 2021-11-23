@@ -432,19 +432,19 @@ p{
     color: #FEFCF7;
 }
 /* OURCOMIT SECTION  */
-.ourcomit .container__smal{
+.commitment .container__smal{
     background-image: url("../images/about.img/ourcomit-bgr-img.jpg");
     background-size: 445px 520px;
     background-repeat: no-repeat;
 }
-.ourcomit__info{
+.commitment__info{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     margin-left: auto;
     padding: 90px 0;
 }
-.ourcomit__heading{
+.commitment__heading{
     width: 357px;
     margin: 0;
     margin-right: 183px;
@@ -455,7 +455,7 @@ p{
     line-height: 48px;
     color: #333D4B;
 }
-.ourcomit__paragraph{
+.commitment__paragraph{
     width: 540px;
     margin: 0;
     margin-bottom: 210px;
