@@ -14,7 +14,7 @@
     src:  url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'), 
     url('../fonts/fraunces-v10-latin-900.woff') format('woff'); 
 }
-@font-face {
+ @font-face {
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 400;
@@ -412,7 +412,7 @@ p{
     margin-left: 24px;
 }
 /* ABOUT HTML  */
- /* HERO  */
+/* HERO  */
 .about__hero .container{
     margin-bottom: 168px;
     padding: 117px 85px;
@@ -430,4 +430,37 @@ p{
     font-size: 40px;
     line-height: 48px;
     color: #FEFCF7;
+}
+/* OURCOMIT SECTION  */
+.ourcomit .container__smal{
+    background-image: url("../images/about.img/ourcomit-bgr-img.jpg");
+    background-size: 445px 520px;
+    background-repeat: no-repeat;
+}
+.ourcomit__info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+    padding: 90px 0;
+}
+.ourcomit__heading{
+    width: 357px;
+    margin: 0;
+    margin-right: 183px;
+    margin-bottom: 32px;
+    padding: 0;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+.ourcomit__paragraph{
+    width: 540px;
+    margin: 0;
+    margin-bottom: 210px;
+    padding: 0;
+    font-weight: normal;
+    font-size: 16px;
+    color: #333D4B;
 }
